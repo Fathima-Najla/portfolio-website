@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <!-- new -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>Responsive Personal Porfolio Website</title>
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="#"><span>Abdul </span>Aziz</a>
+        </div>
+        <div class="list-darkmode-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="assets/Your-Resume.pdf" class="nav-btn" download>CV</a></li>
+          </ul>
+          <label class="mode">
+            <input type="checkbox" checked="checked" id="darkModeButton"/>
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+          </label>
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="home">
+    <div class="container">
+      <div class="home-info">
+        <div class="left">
+          <h3>Hello, I'm</h3>
+          <h1>Abdul Aziz</h1>
+          <h4>And I'm a <span class="multiple"></span></h4>
+          <p>
+            Hi! I'm Abdul Aziz, a passionate front-end Developer specializing in translating design cocepts into seamless and interactive web experiences using HTML, CSS and JavaScript.
+          </p>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <div class="btn">
+            <button>Download CV</button>
+          </div>
+        </div>
+        <div class="right">
+          <div class="profile">
+            <img src="images/azu.jpg" alt="profile">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="about-left">
+          <div class="about-img">
+            <img src="images/azu.jpg" alt="photo-2">
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-info">
+            <h2>About <span>Me</span></h2>
+            <h3>Front-End Developer</h3>
+            <p>
+              I am a passionate Front-End Developer with experience in building responsive and user-friendly websites. I specialize in turning designs into interactive web experiences using HTML, CSS, JavaScript, and modern frameworks. I focus on creating clean, efficient code and engaging interfaces that deliver a seamless user experience.
+            </p>
+            <button>Read more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills -->
+   <section id="skills" class="skills">
+  <div class="container">
+    <h2>My <span>Skills</span></h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Front-End</h3>
+        <ul>
+          <li>HTML5 (Semantic markup)</li>
+          <li>CSS3 (Flexbox, Grid, Responsive)</li>
+          <li>JavaScript (DOM, Events)</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>VS Code</li>
+          <li>Chrome DevTools</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Design</h3>
+        <ul>
+          <li>Canva</li>
+          <li>Adobe Photoshop</li>
+          <li>Adobe Illustrator (Vector & Logo Design)</li>
+          <li>UI/UX Basics</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Currently Learning</h3>
+        <ul>
+          <li>React.js</li>
+          <li>Tailwind CSS</li>
+          <li>REST APIs</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our <span>Services</span></h2>
+      <div class="services-box">
+
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            We create responsive and user-friendly websites tailored to your needs. From dynamic dashboards to e-commerce platforms, our solutions help businesses and individuals establish a strong online presence.
+          </p>
+          <div class="services-btn">
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-pen-fancy"></i>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>
+            Our creative designs bring your brand to life. From logos and posters to social media graphics, we craft visually appealing content that captures attention and communicates your message effectively.
+          </p>
+          <div class="services-btn">
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-chart-column"></i>
+          </div>
+          <h3>Digital Marketing</h3>
+          <p>
+            We help your business grow online with targeted strategies. From social media campaigns to SEO and email marketing, we deliver measurable results that boost engagement and sales.
+          </p>
+          <div class="services-btn">
+            <button>Read More</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+
+    <div class="portfolio">
+      <div class="container">
+        <h2>Latest <span>Project</span></h2>
+
+        <div class="portfolio-wrapper">
+          <div class="portfolio-box">
+            <img src="images/port-1.avif" alt="">
+            <div class="portfolio-info">
+              <h4>School Management System</h4>
+              <p>A complete system for student enrollment, attendance, and grades, with secure login and role-based dashboards for staff and students.
+              <b>Tech: PHP, MySQL, HTML, CSS, JS, Bootstrap, Authentication, Dashboards</b></p>
+              </p>
+              <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                -->
+              <!-- new -->
+               <div class="project-links">
+                <a href="https://github.com/yourusername/project" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://yourproject.netlify.app" target="_blank">
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+              </div>
+
+               <!--  -->
+            </div>
+          </div>
+          <div class="portfolio-box">
+            <img src="images/port-2.jpg" alt="">
+            <div class="portfolio-info">
+              <h4>Bakery Website</h4>
+              <p>
+                Showcases bakery products and online orders with user login and an admin dashboard to manage products and orders.
+                <b>Tech: PHP, MySQL, HTML, CSS, JS, Bootstrap, Authentication, Admin Dashboard</b>
+              </p>
+              <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+               <div class="project-links">
+                <a href="https://github.com/yourusername/project" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://yourproject.netlify.app" target="_blank">
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-box">
+            <img src="images/port-3.jpg" alt="">
+            <div class="portfolio-info">
+              <h4>Digital Marketing</h4>
+              <p>
+                An e-commerce site for skincare products with secure user registration, shopping cart, and admin dashboard for product management. <b>ech: PHP, MySQL, HTML, CSS, JS, Bootstrap, Authentication, E-commerce</b>
+              </p>
+                <!-- <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                 <div class="project-links">
+                <a href="https://github.com/yourusername/project" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://yourproject.netlify.app" target="_blank">
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- new -->
+
+  </section>
+
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact <span>Me!</span></h2>
+      <form action="https://formspree.io/f/mdkqbzyj" method="POST"> <!--using Fromspree-->
+        
+        <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name">
+        <input type="email" name="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+        <input type="number" name="phone" placeholder="Mobile Number">
+        <input type="text" name="subject" placeholder="Email Subject">
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-info">
+          <p>Copyright &copy; 2025 by Abdul Aziz | All Rights Reserved.</p>
+        </div>
+        <div class="iconTop">
+          <a href="#home">
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="main.js"></script>
+  <!-- new -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+
+</body>
+</html>
